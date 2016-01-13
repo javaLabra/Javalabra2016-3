@@ -18,20 +18,21 @@
   * Testaa mahdollisimman montaa metodia
   * Testaa mahdollisimman monelta kantilta
   * Huomioi [koodin laatuvaatimuksien](Koodin-laatuvaatimukset.md) alakohta *Testaus*
-* Noin 10 testiä valmiina
+* Ainakin 10 testiä valmiina
 * Generoi pit-raportti ja laita se dokumentaatiokansion sisälle pit-kansioon.
   * [ohjeet](Maven-Cobertura-ja-PIT.md#raportit)
   * Kannattaa myös generoida ja katsoa läpi cobertura-raportti, mutta sitä ei tarvitse lisätä dokumentaatioon.
 
 ### Luokkakaavio
 
-* Piirrä käsin tai jollain ohjelmalla
+* Piirrä käsin tai jollain ohjelmalla (mieluiten ohjelmalla)
   * Skannaa tai ota selkeä kuva käsinpiirretystä
 * Palauta .png tai .jpg -tiedostomuodossa
 * Hahmottele ensimmäinen versio ohjelmastasi
 * Määrittelyvaiheen luokkakaavio
 * Luokkakaavioon järjestelmän tärkeimmät luokat
 * Luokkien nimet ja yhteydet riittää
+* **Lisää luokkakaavio kuvana [seuraavien ohjeiden](https://daringfireball.net/projects/markdown/syntax#img) mukaisesti dokumentaatiosi aiheenKuvausJaRakenne.md tiedostoon.**
 
 #### Piirtotyökaluja
 
