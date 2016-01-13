@@ -27,7 +27,7 @@
 * Älä yritä samassa kaaviossa esittää liian montaa asiaa, esimerkiksi ehdollisuutta
 * Epäonnistunut ja onnistunut kirjautuminen voisivat olla omat kaavionsa, tai yhden kaavion kaksi osaa
   * Sekvenssikaavio alkaa tunnusten syöttämisellä, kirjautuminen hylätään, virheilmoitus, tunnukset syötetään uudestaan, kirjautuminen onnistuu
-* **Lisää sekvenssikaaviot kuvana [seuraavien ohjeiden](https://daringfireball.net/projects/markdown/syntax#img) mukaisesti dokumentaatiosi aiheenKuvausJaRakenne.md tiedostoon.**
+* **Lisää sekvenssikaaviot kuvina [seuraavien ohjeiden](https://daringfireball.net/projects/markdown/syntax#img) mukaisesti dokumentaatiosi aiheenKuvausJaRakenne.md tiedostoon.**
 
 ### Muu dokumentaatio
 * Aihemäärittely ja luokkakaaviot ajantasalla **viimeistään nyt**!
