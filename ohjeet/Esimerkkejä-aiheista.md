@@ -29,6 +29,22 @@
 
 Oman aiheen ei ole pakko olla allaolevasta listasta. Listassa on kuitenkin erilaisia esimerkkejä, joista voi toteuttaa oman versionsa.
 
+* Hyötyohjelmat
+  * Aritmetiikan harjoittelua
+  * Tehtävägeneraattori, joka antaa käyttäjälle tehtävän sekä mallivastauksen (esim. matematiikkaa, fysiikkaa, kemiaa, ...)
+  * Opintojen seurantajärjestelmä
+  * Matkapäiväkirja
+  * Tekstieditori ("Notepad-klooni") 
+  * IRC-botti
+  * Code Snippet Manageri
+  * Laskin, funktiolaskin, graafinen laskin
+  * Luetonkalenteri
+  * Budjetointi-sovellus
+  * TODO-lista sovellus
+  * HTML WYSIWYG-editor (What you see is what you get)
+  * Drinkkikone, joka kertoo käyttäjälle mitä drinkkejä baarikaapin sisällöstä saa tehtyä
+  * Aiheenarpoja, jotta seuraavilla olisi helpompaa
+
 * Reaaliaikaiset pelit
   * Tetris
   * Pong
@@ -42,31 +58,22 @@ Oman aiheen ei ole pakko olla allaolevasta listasta. Listassa on kuitenkin erila
   * Yatzy
   * Miinaharava
   * Laivanupotus
-  * Pieni strategiapeli
   * Yksinkertainen roolipeli tai luolastoseikkailu
-  * Tekstiseikkailu (kuvilla höystettynä?)
+  * Sudoku
   * Muistipeli
   * Ristinolla (mielivaltaisen kokoisella ruudukolla?)
 
 * Korttipelit
   * En Garde
   * Pasianssi
-  * Uno
-
-* Hyötyohjelmat
-  * Aritmetiikan harjoittelua
-  * Tehtävägeneraattori, joka antaa käyttäjälle tehtävän sekä mallivastauksen (esim. matematiikkaa, fysiikkaa, kemiaa, ...)
-  * Opintojen seurantajärjestelmä
-  * Aiheenarpoja, jotta seuraavilla olisi helpompaa
-  * Tekstieditori ("Notepad-klooni") 
-  * Drinkkikone, joka kertoo käyttäjälle mitä drinkkejä baarikaapin sisällöstä saa tehtyä
-  * Laskin, funktiolaskin, graafinen laskin
+  * UNO
+  * Texas Hold'em
 
 * Omaan tieteenalaan, sivuaineeseen tai harrastukseen liittyvät hyötyohjelmat
   * Yksinkertainen fysiikkasimulaattori
   * DNA-ketjujen tutkija 
   * Keräilykorttien hallintajärjestelmä
-  * Sudoku-ratkaisin
   * Fraktaaligeneraattori
+  * Kaavamuistio
 
 Voit katsoa myös [vanhat esimerkkiaiheet](https://www.cs.helsinki.fi/node/59273), jotka tosin ovat suurimmaksi osaksi samoja.
