@@ -27,7 +27,7 @@ Sähköpostit: etunimi.sukunimi@cs.helsinki.fi
 
 ## Uutisia
 
-* Kiitos kurssista.
+* Tervetuloa kurssille, vilaise [Yleiset](ohjeet/Yleistä.md) ohjeet ja tule aloitusluennolle tiistaina.
 
 # Aikataulu
 
