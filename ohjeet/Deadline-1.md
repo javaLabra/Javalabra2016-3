@@ -11,6 +11,8 @@
 
 ### Kirjoita aihemäärittely
 
+**HUOM!** Kaikki kurssin dokumentaatio kirjoitetaan käyttämällä [Markdownia](https://help.github.com/articles/markdown-basics/). Tyylittele palautuksesi asianmukaisesti ja lisää jatkossa kaikki tekemäsi kuvat myös md-tiedostoihin edellämainittujen ohjeiden mukaisesti. Mikäli markdownia ei ole käytetty asianmukaisesti voi se johtaa palautuksessa nolliin pisteisiin dokumentaation osalta. 
+
 Lyhyt kuvaus toteutettavasta ohjelmasta. Kuvauksen ei tarvitse olla kovin pitkä eikä kattava. Kuvaus tarkentuu myöhemmin, aluksi dokumentoidaan vain ideat, joiden pohjalta työtä lähdetään tekemään. Kuvaus sisältää muutaman tekstikappaleen pituisen yleiskuvauksen.
 
 Tee aihemäärittelystä md-tiedosto. Nämä tiedostot ovat siis GitHubin tukemia Markdown-tiedostoja, joihin on mahdollisuus lisätä omia muotoiluja. Kannattaa tutustua  [Markdownin perusteisiin](https://help.github.com/articles/markdown-basics) ja [GitHub Flavored Markdowniin](https://help.github.com/articles/github-flavored-markdown). Tyylitietoisimmat voivat etsiä lisää kikkoja [tästä kattavasta oppaasta](http://guides.github.com/overviews/mastering-markdown/). Kaikki kurssilla kirjoitettava dokumentaatio tulee olemaan md-tiedostoissa. Md-tiedostoja voi editoida myös suoraan GitHubissa.
