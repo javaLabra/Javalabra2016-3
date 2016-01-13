@@ -35,6 +35,7 @@ Kurssisuoritukseen vaaditaan aikataulussa pysymystä, joten kannattaa pitää ai
 
 Pajat pidetään [Exactumissa](http://www.helsinki.fi/teknos/opetustilat/kumpula/gh2b/default.htm) luokassa **BK107**, ellei toisin ilmoiteta.
 
+* **Pakollinen aloitusluento Tiistai 19. tammikuuta 14-16 CK112**
 * Paja Keskiviikko 20. tammikuuta 14-16 BK107 (wakr)
 * **Deadline 1** 22. tammikuuta klo 23:59
 * Paja Maanantaina 25. tammikuuta 14-16 BK107 (serdion)
@@ -51,6 +52,6 @@ Pajat pidetään [Exactumissa](http://www.helsinki.fi/teknos/opetustilat/kumpula
 * **Deadline 5** 19. helmikuuta klo 23:59 + Toinen [katselmointi](ohjeet/Koodikatselmointi.md)
 * Paja Maanantaina 22. helmikuuta 14-16 BK107 (wakr)
 * Paja Keskiviikko 24. helmikuuta 12-14 BK107 (serdion)
-* Pakollinen [demotilaisuus](ohjeet/Koodikatselmointi.md), tarkemmat aikataulut myöhemmin
+* **Pakollinen [demotilaisuus](ohjeet/Koodikatselmointi.md), tarkemmat aikataulut myöhemmin**
 * **Deadline 6** 26. helmikuuta klo 23:59
 * Loppupalautus 4. maaliskuuta klo 23:59
