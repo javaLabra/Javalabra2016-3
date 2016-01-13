@@ -35,22 +35,22 @@ Kurssisuoritukseen vaaditaan aikataulussa pysymystä, joten kannattaa pitää ai
 
 Pajat pidetään [Exactumissa](http://www.helsinki.fi/teknos/opetustilat/kumpula/gh2b/default.htm) luokassa **BK107**, ellei toisin ilmoiteta.
 
-* Paja Keskiviikko 14-16 BK107 wakr
-* Deadline 1 - 22. tammikuuta klo 23:59
-* Maanantaina paja 14-16 serdion
-* Paja Keskiviikko 12-14 Ooppa
-* Deadline 2 - 29. tammikuuta klo 23:59
-* Maanantaina paja 14-16 wakr
-* Keskiviikko paja 12-14 serdion
-* Deadline 3 - 5. helmikuuta klo 23:59 + Ensimmäinen katselmointi
-* Maanantaina paja 14-16 Ooppa
-* Keskiviikko paja 12-14 wakr
-* Deadline 4 - 12. helmikuuta klo 23:59
-* Maanantaina paja 14-16 serdion
-* Keskiviikko paja 12-14 Ooppa
-* Deadline 5 - 19. helmikuuta klo 23:59 + Toinen katselmointi
-* Maanantaina paja 14-16 wakr
-* Keskiviikko paja 12-14 serdion
-* Pakollinen [demotilaisuus](ohjeet/Demotilaisuus.md), tarkemmat aikataulut myöhemmin
-* Deadline 6 - 26. helmikuuta klo 23:59
+* Paja Keskiviikko 20. tammikuuta 14-16 BK107 (wakr)
+* **Deadline 1** 22. tammikuuta klo 23:59
+* Paja Maanantaina 25. tammikuuta 14-16 BK107 (serdion)
+* Paja Keskiviikko 27. tammikuuta 12-14 BK107 (Ooppa)
+* **Deadline 2** 29. tammikuuta klo 23:59
+* Paja Maanantaina 1. helmikuuta 14-16 BK107 (wakr)
+* Paja Keskiviikko 3. helmikuuta 12-14 BK107 (serdion)
+* **Deadline 3** 5. helmikuuta klo 23:59 + Ensimmäinen [katselmointi](ohjeet/Koodikatselmointi.md)
+* Paja Maanantaina 8. helmikuuta 14-16 BK107 (Ooppa)
+* Paja Keskiviikko 10. helmikuuta 12-14 BK107 (wakr)
+* **Deadline 4** 12. helmikuuta klo 23:59
+* Paja Maanantaina 15. helmikuuta 14-16 BK107 (serdion)
+* Paja Keskiviikko 17. helmikuuta 12-14 BK107 (Ooppa)
+* **Deadline 5** 19. helmikuuta klo 23:59 + Toinen [katselmointi](ohjeet/Koodikatselmointi.md)
+* Paja Maanantaina 22. helmikuuta 14-16 BK107 (wakr)
+* Paja Keskiviikko 24. helmikuuta 12-14 BK107 (serdion)
+* Pakollinen [demotilaisuus](ohjeet/Koodikatselmointi.md), tarkemmat aikataulut myöhemmin
+* **Deadline 6** 26. helmikuuta klo 23:59
 * Loppupalautus 4. maaliskuuta klo 23:59
