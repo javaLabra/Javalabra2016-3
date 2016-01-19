@@ -7,6 +7,7 @@
   * Yksinkertaiseen käyttöliittymäänkin kuluu paljon aikaa
 
 ### Ohjelman tulee noudattaa Clean code -periaatteita
+* [Laatuvaatimukset](Koodin-laatuvaatimukset.md)
 * Kiinnitä huomiota erityisesti pitkiin metodeihin
 
 ### JUnit-yksikkötestit
