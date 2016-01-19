@@ -49,6 +49,7 @@ Alla luetellaan Clean Code -periaatteita noudattavan koodin laatuvaatimukset. Oh
  * Toisessa muu logiikka
  * Kolmannessa käyttöliittymän luokat
  * jne.
+* Pakkausten nimet aina pienellä (<i>lowercase</i>)
 * Myös testipakkausten nimentä tulee olla oikea, ks. 6. Testaus
 
 **6. Testaus**
