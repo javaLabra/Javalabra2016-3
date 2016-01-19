@@ -14,11 +14,6 @@
 * Toisin sanoen: Avaa luokkakaaviotasi sanallisesti
 * Tallenna kuvaus omaan tiedostoonsa tai aihemäärittelyn jatkoksi
 
-### Tarkista projektisi valmius
-* Ohjelma toimii ja on valmis
-* JUnit-testejä mahdollisimman kattavasti
-* Kaaviot, Javadoc ja muu dokumentointi ajantasalla 
-
 ### Clean-code
 * Ohjelmasi tulisi noudattaa [koodin laatuvaatimuksia](Koodin-laatuvaatimukset.md) mahdollisimman hyvin
 
@@ -33,7 +28,7 @@
         <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-shade-plugin</artifactId>
-            <version>2.2</version>
+            <version>2.4.3</version>
             <executions>
                 <execution>
                     <phase>package</phase>
@@ -43,7 +38,7 @@
                     <configuration>
                         <transformers>
                             <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                                <mainClass>javalabra.Main</mainClass>
+                                <mainClass>PÄÄLUOKAN_SIJAINTI</mainClass><!-- Esimerkiksi muotoa "fi.omanimi.superprojekti" -->
                             </transformer>
                         </transformers>
                     </configuration>
@@ -64,6 +59,21 @@
 * Ajattele käyttäjää, joka ei ole käyttänyt ohjelmaasi
 * Jos ohjelmasi on yksinkertainen käyttää, ei käyttöohjeidenkaan tarvitse olla pitkät
 
+### Generoi Checkstyle-raportti uudestaan
+* Generoi uusi Checkstyle raportti
+* Lisää generoitu raportti dokumentaatiokansioon
+
+### Generoi PIT-raportti uudestaan
+* Generoi uudestaan PIT-raportti
+* Lisää uusi generoitu raportti dokumentaatioon
+
+# Lopulliseen palautukseen (Deadline 6 jälkeen)
+
+### Tarkista ohjelmasi valmius
+* Ohjelma toimii ja on valmis
+* JUnit-testejä mahdollisimman kattavasti
+* Kaaviot, Javadoc ja muu dokumentointi ajantasalla ja vastaa vaatimuksia
+
 ###  Kirjoita testausdokumentaatio
 * **Vapaaehtoinen**
 * Testausdokumentaatio korvaa yksikkötestauksen puutteita maksimissaan +2 pistettä
@@ -77,4 +87,4 @@
 * Puske kaikki vaadittava repositorioon ennen deadlinea, viimeisin ennen deadlinea tehty commit arvostellaan
 * Tarkista selaimesta, että kaikki on varmasti Githubissa
 * Tarkista, että ohjelma toimii varmasti laitoksen koneilla
-* Muistilistana toimii [arvosteluperusteet](Arvosteluperusteet.md)
+* **Muistilistana toimii [arvosteluperusteet](Arvosteluperusteet.md)**
