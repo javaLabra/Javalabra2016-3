@@ -50,9 +50,17 @@ Avaa tiedosto ja korvaa tiedoston sisältö tällä:
         <module name='NeedBraces' />
         <module name='RightCurly' />
         <module name='AvoidNestedBlocks' />
+        <module name="NestedIfDepth">
+          <property name="max" value="2"/>
+        </module>
+        <module name="NestedForDepth">
+          <property name="max" value="2"/>
+        </module>
+        <module name="NestedTryDepth"/>
 
         <!-- Miscellaneous -->
         <module name='Indentation' />
+        <module name="OneStatementPerLine"/>
 
         <!--- Naming Conventions -->
 
