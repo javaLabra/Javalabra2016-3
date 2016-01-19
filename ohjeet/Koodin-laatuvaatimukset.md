@@ -7,7 +7,6 @@ Kurssin tavoitteena on, että tuotoksesi voisi ottaa kuka tahansa kaverisi tai m
 Alla luetellaan Clean Code -periaatteita noudattavan koodin laatuvaatimukset. Ohjelmoinnin harjoitustyön tulisi noudattaa periaatteita mahdollisimman hyvin.
 
 **1. Nimeä luokat, metodit, attribuutit, parametrit ja  muuttujat selkeästi ja johdonmukaisesti**
-
 * Käytä mahdollisimman kuvaavia nimiä kaikkialla 
 * Muuttujat, joilla on iso käyttöalue, tulee olla erittäin selkeästi (vaikka pitkästi) nimettyjä. 
 * Lyhyen metodin sisäisille muuttujille riittää yleensä lyhyt nimi. 
@@ -20,7 +19,6 @@ Alla luetellaan Clean Code -periaatteita noudattavan koodin laatuvaatimukset. Oh
 **Huomaa:** tee uudelleennimeäminen NetBeansin Refactor/rename-ominaisuuden avulla, ks kohta [refaktorointi](https://www.cs.helsinki.fi/node/61563)
 
 **2. Ei pitkiä metodeja**
-
 * Sovelluslogiikan metodin pituuden tulee ilman erittäin hyvää syytä olla korkeintaan 10 riviä, mieluiten 5.
 * Pitkät metodit tulee jakaa useampiin metodeihin. 
 * Yksi metodi - yksi pieni tehtävä. (Single Responsibility)
@@ -28,12 +26,10 @@ Alla luetellaan Clean Code -periaatteita noudattavan koodin laatuvaatimukset. Oh
 * Jos metodin voi jakaa useampaan metodiin, niin silloinhan se jo tekee useamman metodin hommat.
 
 **3. Ei copy-pastea**
-
 * Toistuvan koodin saa lähes aina hävitettyä
 * Tapauksesta riippuen luo metodi tai yliluokka, joka sisältää toistuvan koodin
 
 **4. Luokkien Single Responsibility**
-
 * Luokkien tulisi hoitaa vain yhtä asiaa
 * Esimerkiksi tiedoston lukemista tai -kirjoittamista EI tulisi löytyä useasta luokasta
  * Tee oma luokka tiedostojen käsittelylle
@@ -43,9 +39,10 @@ Alla luetellaan Clean Code -periaatteita noudattavan koodin laatuvaatimukset. Oh
  * Edellinen mahdollistaa helpon siirtymän tekstikäyttöliittymästä graafiseen
 
 **5. Pakkaukset**
-
 * << Default package >> EI saa olla käytössä
 * Luokat tulee jakaa pakkauksiin
+* Kaikkien pakkausten tulee olla yhden juuripakkauksen alla, esim. fi.omanimi
+ * Logiikkapakkaus olisi näin tehtynä siis fi.omanimi.logiikka, käyttöliittymä fi.omanimi.gui
 * Yhdessä pakkauksessa yksi kokonaisuus
  * Esim. yhdessä pakkauksessa käyttäjätileihin liittyvät luokat
  * Toisessa muu logiikka
@@ -55,12 +52,10 @@ Alla luetellaan Clean Code -periaatteita noudattavan koodin laatuvaatimukset. Oh
 * Myös testipakkausten nimentä tulee olla oikea, ks. 6. Testaus
 
 **6. Testaus**
-
 * Generoidut testit ovat *kiellettyjä*
  * Tarkoitus on oppia testaamaan itse oma ohjelmakoodinsa
  * Generoidut testit harvoin testaavat mitään hyödyllistä
  * Generoitujen testien tai testipohjien käyttö: 0 pistettä
-
 * Automatisoitu yksikkötestaus (=JUnit -testit) on *pakollista*
  * Testauksen puutteessa kurssisuoritus hylätään
 * Palauta mieleesi Ohjelmistotekniikan Menetelmien testaustehtävät:
@@ -72,11 +67,9 @@ Alla luetellaan Clean Code -periaatteita noudattavan koodin laatuvaatimukset. Oh
  * Käyttöliittymää ei testata automaattisesti (Aihetta opetetaan kurssilla Ohjelmistotuotanto)
 * Pakkaukset ja nimentä testeille
  * Esim. luokkaa Kayttaja testaa testiluokka KayttajaTest
- * Jos luokka Kayttaja on pakkauksessa "ilmo.kayttajat", KayttajaTest tulisi olla testipakkauksesa nimelta "ilmo.kayttajat".
+ * Jos luokka Kayttaja on pakkauksessa "fi.teuvo.ilmo.kayttajat", KayttajaTest tulisi olla testipakkauksesa nimelta "fi.teuvo.ilmo.kayttajat".
  * Yhtä luokkaa kohti saa luoda useita testiluokkia
-* Testikattavuudessa tärkein väline on oma järki, mutta halutessaan voi kokeilla:
- * Cobertura
- * Pit (mutaatiotestaus)
+* Testikattavuudessa tärkein väline on oma järki, mutta halutessa voit käyttää hyväksi generoitua pit-raporttia
 
 ### Yleiset laatuvaatimukset
 
