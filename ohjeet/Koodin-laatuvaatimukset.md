@@ -8,13 +8,13 @@ Alla luetellaan Clean Code -periaatteita noudattavan koodin laatuvaatimukset. Oh
 
 **1. Nimeä luokat, metodit, attribuutit, parametrit ja  muuttujat selkeästi ja johdonmukaisesti**
 * Käytä mahdollisimman kuvaavia nimiä kaikkialla 
+* * Luokkien nimet aina isolla alkukirjaimella
+* Metodit, attribuutit, parametrit ja muuttujat aina _camelCase_
 * Muuttujat, joilla on iso käyttöalue, tulee olla erittäin selkeästi (vaikka pitkästi) nimettyjä. 
 * Lyhyen metodin sisäisille muuttujille riittää yleensä lyhyt nimi. 
 * Jos metodia käytetään vähän, tulee nimen olla mahdollisimman kuvaava. 
 * Jos metodia käytetään useassa kohdassa koodia, voi sen nimi olla lyhyt ja ytimekäs.
 * Älä käytä ääkkösiä
-* Luokkien nimet aina isolla alkukirjaimella
-* Metodit, attribuutit, parametrit ja muuttujat aina _camelCase_
 
 **Huomaa:** tee uudelleennimeäminen NetBeansin Refactor/rename-ominaisuuden avulla, ks kohta [refaktorointi](https://www.cs.helsinki.fi/node/61563)
 
@@ -41,6 +41,7 @@ Alla luetellaan Clean Code -periaatteita noudattavan koodin laatuvaatimukset. Oh
 **5. Pakkaukset**
 * << Default package >> EI saa olla käytössä
 * Luokat tulee jakaa pakkauksiin
+* * Pakkausten nimet aina pienellä (_lowercase_)
 * Kaikkien pakkausten tulee olla yhden juuripakkauksen alla, esim. fi.omanimi
  * Logiikkapakkaus olisi näin tehtynä siis fi.omanimi.logiikka, käyttöliittymä fi.omanimi.gui
 * Yhdessä pakkauksessa yksi kokonaisuus
@@ -48,7 +49,6 @@ Alla luetellaan Clean Code -periaatteita noudattavan koodin laatuvaatimukset. Oh
  * Toisessa muu logiikka
  * Kolmannessa käyttöliittymän luokat
  * jne.
-* Pakkausten nimet aina pienellä (_lowercase_)
 * Myös testipakkausten nimentä tulee olla oikea, ks. 6. Testaus
 
 **6. Testaus**
