@@ -80,3 +80,65 @@ public int onnistumistodennakoisyys(int syote, int kayttajanKorjaus) {
 ```
 
 Lisää ohjeita löydät [JavaDocin Wikipedia-sivulta](http://en.wikipedia.org/wiki/Javadoc).
+
+### JavaDocin Generointi 
+Jos haluat saada projektisi JavaDocista helposti selattavan html-sivun ja NetBeansin oma "Generate JavaDoc"-näppäin on harmaana, ei kannata huolestua, voimme lisätä sen helposti samaan custom-valikkoon kuin pit.
+
+Lisää pom.mxl:ään tämä plugin:
+
+``` xml
+<plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-javadoc-plugin</artifactId>
+    <version>2.10.3</version>
+</plugin> 
+```
+
+Tämän jälkeen build-osan pitäisi näyttää suunnilleen tältä (paitsi jos olet konfiguroinut pittiä, jolloin sen sisällä on configuration-blokki):
+``` xml
+<build>
+    <plugins>
+        <plugin>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <configuration>
+                <source>1.7</source>
+                <target>1.7</target>
+            </configuration>
+            <version>3.3</version>
+        </plugin>
+        <plugin>
+            <groupId>org.pitest</groupId>
+            <artifactId>pitest-maven</artifactId>
+            <version>1.1.8</version>
+        </plugin>
+        <plugin>
+             <groupId>org.apache.maven.plugins</groupId>
+             <artifactId>maven-javadoc-plugin</artifactId>
+             <version>2.10.3</version>
+        </plugin> 
+    </plugins>
+</build>
+```
+
+Sitten lisätään plugin vielä NetBeanssin valikkoon nbactions.xml:n kautta. Korvaa nbactions.xml:n sisältö tällä:
+``` xml
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+    <action>
+        <actionName>CUSTOM-pit</actionName>
+        <displayName>pit</displayName>
+        <goals>
+            <goal>org.pitest:pitest-maven:mutationCoverage</goal>
+        </goals>
+    </action>
+    <action>
+        <actionName>CUSTOM-Javadoc</actionName>
+        <displayName>Javadoc</displayName>
+        <goals>
+            <goal>javadoc:javadoc</goal>
+        </goals>
+    </action>
+</actions>
+```
+
+Nyt voit generoida JavaDocin klikkaamalla projektin nimeä oikealla hiirennäppäimellä ja valitsemalla `custom-JavaDoc`.
