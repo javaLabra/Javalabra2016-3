@@ -18,6 +18,10 @@
   * [ohjeet](Maven-Cobertura-ja-PIT.md#raportit)
   * Kannattaa tutkia myös cobertura-raportti. Logiikan rivikattavuus olisi hyvä olla jo >70%.
 
+### Generoi PIT-raportti uudestaan
+* Generoi uudestaan PIT-raportti
+* Lisää uusi generoitu raportti dokumentaatioon
+
 ### Luokkakaavio
 * Tarkenna ohjelman luokkakaaviota tai piirrä uusi kuvaamaan nykyistä rakennetta
 * Merkitse kytkentärajoitteet
