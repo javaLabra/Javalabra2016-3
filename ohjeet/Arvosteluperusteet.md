@@ -14,6 +14,7 @@
 * Tuntikirjanpito
  * Käytettyjen tuntien määrä ei vaikuta
  * Tuntikirjanpitoa tulee jatkaa jokaisessa deadlinessa
+* Checkstyle raportti luotu ja on projektissa
 
 ### Testaus (10 pistettä)
 
@@ -24,7 +25,6 @@
 * Testaa mahdollisimman monelta kantilta (rajatapaukset)
 * Sovellustason testauksen raportointi (VAPAAEHTOINEN, korvaa puutteita testauksessa enintään 2 pistettä)
 
-
 ### Toteutus (25 pistettä)
 
 * Toimiva .jar-tiedosto
@@ -33,7 +33,6 @@
 * Virhetilanteiden käsittely ja koodin vikasietoisuus
 * Graafinen käyttöliittymä
 * Koodin selkeys ja luettavuus, muuttujien nimeäminen
-  * Checkstyle raportti luotu ja on projektissa (VAPAAEHTOINEN, korvaa puutteita toteutuksessa enintään 2 pistettä)
 * Oliorakenteen ja ohjelman selkeys
 
 ### Katselmointi (3 pistettä)
