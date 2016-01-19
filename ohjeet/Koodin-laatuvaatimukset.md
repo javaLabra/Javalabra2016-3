@@ -8,7 +8,7 @@ Alla luetellaan Clean Code -periaatteita noudattavan koodin laatuvaatimukset. Oh
 
 **1. Nimeä luokat, metodit, attribuutit, parametrit ja  muuttujat selkeästi ja johdonmukaisesti**
 * Käytä mahdollisimman kuvaavia nimiä kaikkialla 
-* * Luokkien nimet aina isolla alkukirjaimella
+ * Luokkien nimet aina isolla alkukirjaimella
 * Metodit, attribuutit, parametrit ja muuttujat aina _camelCase_
 * Muuttujat, joilla on iso käyttöalue, tulee olla erittäin selkeästi (vaikka pitkästi) nimettyjä. 
 * Lyhyen metodin sisäisille muuttujille riittää yleensä lyhyt nimi. 
