@@ -36,7 +36,7 @@ Tämän xml:n alkuosa on jokaisella projektille yksilöllinen. Siihen emme koske
     <dependency>
         <groupId>junit</groupId>
         <artifactId>junit</artifactId>
-        <version>4.11</version>
+        <version>4.12</version>
         <scope>test</scope>
     </dependency>
 </dependencies>
@@ -49,12 +49,12 @@ Tämän xml:n alkuosa on jokaisella projektille yksilöllinen. Siihen emme koske
                 <source>1.7</source>
                 <target>1.7</target>
             </configuration>
-            <version>3.2</version>
+            <version>3.3</version>
         </plugin>
         <plugin>
             <groupId>org.pitest</groupId>
             <artifactId>pitest-maven</artifactId>
-            <version>1.1.4</version>
+            <version>1.1.8</version>
         </plugin>
     </plugins>
 </build>
@@ -67,7 +67,7 @@ Lisäyksen jälkeen pom.xml pitäisi näyttää jotakuinkin tältä:
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>fi.omanimi</groupId>
+    <groupId>ohjelmannimi</groupId>
     <artifactId>SuperOhjelma</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
@@ -81,7 +81,7 @@ Lisäyksen jälkeen pom.xml pitäisi näyttää jotakuinkin tältä:
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>4.11</version>
+            <version>4.12</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
@@ -94,12 +94,12 @@ Lisäyksen jälkeen pom.xml pitäisi näyttää jotakuinkin tältä:
                     <source>1.7</source>
                     <target>1.7</target>
                 </configuration>
-                <version>3.2</version>
+                <version>3.3</version>
             </plugin>
             <plugin>
                 <groupId>org.pitest</groupId>
                 <artifactId>pitest-maven</artifactId>
-                <version>1.1.4</version>
+                <version>1.1.8</version>
             </plugin>
         </plugins>
     </build>
@@ -154,7 +154,7 @@ Korvataan pom.xml:n pit-plugin kohta:
             <plugin>
                 <groupId>org.pitest</groupId>
                 <artifactId>pitest-maven</artifactId>
-                <version>1.1.4</version>
+                <version>1.1.8</version>
             </plugin>
 ```
 
@@ -164,7 +164,7 @@ Seuraavan tyylisellä (muuta param-kohdat omaa ohjelmaasi vastaaviksi):
 <plugin>
     <groupId>org.pitest</groupId>
     <artifactId>pitest-maven</artifactId>
-    <version>1.1.4</version>
+    <version>1.1.8</version>
     <configuration>
         <targetClasses>
             <param>ristinolla.logiikka.*</param>
@@ -209,7 +209,7 @@ Lisää pom.mxl:ään tämä plugin:
 <plugin>
     <groupId>org.apache.maven.plugins</groupId>
     <artifactId>maven-javadoc-plugin</artifactId>
-    <version>2.9.1</version>
+    <version>2.10.3</version>
 </plugin> 
 ```
 
@@ -223,17 +223,17 @@ Tämän jälkeen build-osan pitäisi näyttää suunnilleen tältä (paitsi jos 
                 <source>1.7</source>
                 <target>1.7</target>
             </configuration>
-            <version>3.2</version>
+            <version>3.3</version>
         </plugin>
         <plugin>
             <groupId>org.pitest</groupId>
             <artifactId>pitest-maven</artifactId>
-            <version>1.1.4</version>
+            <version>1.1.8</version>
         </plugin>
         <plugin>
              <groupId>org.apache.maven.plugins</groupId>
              <artifactId>maven-javadoc-plugin</artifactId>
-             <version>2.9.1</version>
+             <version>2.10.3</version>
         </plugin> 
     </plugins>
 </build>
