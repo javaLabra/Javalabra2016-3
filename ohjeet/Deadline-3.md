@@ -6,7 +6,7 @@
 
 ### Noudata Clean code -periaatteita
 
-* Jos koodia on syntynyt useita luokkia, kannattaa jakaa koodi loogisiin paketteihin laatuvaatimusten mukaisesti
+* Jos koodia on syntynyt useita luokkia, kannattaa jakaa koodi loogisiin paketteihin [laatuvaatimusten](Koodin-laatuvaatimukset.md) mukaisesti
 
 ### JUnit-yksikkötestit
 
@@ -15,7 +15,7 @@
   * Jos jaoit koodin paketteihin, huomioi myös testipakettien nimentä
 * Yhtä luokkaa kohti saa olla myös useita testiluokkia
 * Poista viime viikon pit-raportti ja generoi uusi sen tilalle.
-  * [ohjeet](Maven-Cobertura-ja-PIT.md#raportit)
+  * [ohjeet](Maven-ja-PIT.md#raportit)
   * Kannattaa tutkia myös cobertura-raportti. Logiikan rivikattavuus olisi hyvä olla jo >70%.
 
 ### Generoi PIT-raportti uudestaan
