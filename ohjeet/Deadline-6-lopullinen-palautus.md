@@ -1,5 +1,8 @@
 ﻿# Deadline 6 + lopullinen palautus
 
+### Clean-code
+* Ohjelmasi tulisi noudattaa [koodin laatuvaatimuksia](Koodin-laatuvaatimukset.md) mahdollisimman hyvin
+
 ### JavaDoc
 * Kaikki luokat, attribuutit ja julkiset metodit on dokumentoitu
 * Javadocia **ei** tarvitse kirjoittaa...
@@ -14,8 +17,9 @@
 * Toisin sanoen: Avaa luokkakaaviotasi sanallisesti
 * Tallenna kuvaus omaan tiedostoonsa tai aihemäärittelyn jatkoksi
 
-### Clean-code
-* Ohjelmasi tulisi noudattaa [koodin laatuvaatimuksia](Koodin-laatuvaatimukset.md) mahdollisimman hyvin
+### Kirjoita käyttöohjeet
+* Ajattele käyttäjää, joka ei ole käyttänyt ohjelmaasi
+* Jos ohjelmasi on yksinkertainen käyttää, ei käyttöohjeidenkaan tarvitse olla pitkät
 
 ### Luo ajettava jar-tiedosto
 * Shade-pluginin pitäisi paketoida mukaan ohjelmasi tarvitsemat riippuvuudet, jos sellaisia on.
@@ -54,10 +58,6 @@
 * Kokeile .jar -tiedoston toimivuus. Komentoriviltä jar-tiedosto voidaan ajaa komennolla `java -jar paketti.jar`.
    * Jos ohjelma ei toimi, tarkista erityisesti ohjelmasi käyttämät tiedostopolut - ne ovat suhteellisia .jar-tiedoston sijaintiin
 * Kokeile ajaa ohjelmaasi myös jollain muulla kuin omalla koneellasi. Esimerkiksi natiivikirjastojen kanssa paketointi saattaa vaatia ylimääräistä säätöä - näissä tapauksissa esimerkiksi kirjaston dokumentaatio saattaa kertoa sopivimman paketointitavan.
-
-### Kirjoita käyttöohjeet
-* Ajattele käyttäjää, joka ei ole käyttänyt ohjelmaasi
-* Jos ohjelmasi on yksinkertainen käyttää, ei käyttöohjeidenkaan tarvitse olla pitkät
 
 ### Generoi Checkstyle-raportti uudestaan
 * Generoi uusi Checkstyle raportti
