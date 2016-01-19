@@ -1,6 +1,6 @@
 ﻿#Tehtävät ja palautus
 
-**Deadline on palautuksille perjantaisin klo 23:59 ja loppupalautukselle sunnuntaina 10.1. klo 23:59**
+**Deadline on palautuksille perjantaisin klo 23:59 ja loppupalautukselle perjantaina 4. maaliskuuta klo 23:59**
 
 Ensimmäisessä deadline suoritetaan tekemällä vaadittavat tehtävät ja rekisteröitymällä [labtooliin](http://tktl-labtool.herokuapp.com/register). **Valitse labtoolista oman periodisi kurssi (Javalabra2015-Vuodenvaihde).** Versionhallinnassa käytetään tällä kurssilla Gittiä, tarkemmin Github-palvelua. Ensimmäisen deadlinen jälkeen palautukseksi katsotaan viimeisin ennen deadlinea suoritettu Github-pushaus. Erillisiä sähköpostipalautuksia tai vastaavia ei hyväksytä.
 
@@ -13,28 +13,28 @@ Jokaisen palautuksen yhteydessä ohjelma tulee voida ajaa ilman virheilmoituksia
 * Käy tasaisin ajoin keskustelemassa edistymisestäsi, saat samalla palautteen!
 * **Lisäaikaa saa hyvällä syyllä, etukäteen pyytämällä**
 
-### Deadline 1, torstaina 17.12
+### Deadline 1, 22. tammikuuta klo 23:59
 * [Deadlinen 1 vaatimukset](Deadline-1.md)
 
-### Deadline 2, maanantaina 21.12
+### Deadline 2, 29. tammikuuta klo 23:59
 * [Deadlinen 2 vaatimukset](Deadline-2.md)
 
-### Deadline 3, maanantaina 28.12
+### Deadline 3, 5. helmikuuta klo 23:59
 * [Deadlinen 3 vaatimukset](Deadline-3.md)
 
-### Deadline Katselmointi 1, maanantaina 28.12
+### Ensimmäinen katselmointi 1, 5. helmikuuta klo 23:59
 * Deadline [koodikatselmoinnille](Koodikatselmointi.md)
 
-### Deadline 4, lauantaina 2.1
+### Deadline 4, 12. helmikuuta klo 23:59
 * [Deadlinen 4 vaatimukset](Deadline-4.md)
 
-### Deadline 5, keskiviikkona 6.1
+### Deadline 5, 19. helmikuuta klo 23:59
 * [Deadlinen 5 vaatimukset](Deadline-5.md)
 
-### Deadline Katselmointi 2, keskiviikkona 6.1
+### Toinen katselmointi, 19. helmikuuta klo 23:59
 * Deadline [koodikatselmoinnille](Koodikatselmointi.md)
 
-### Lopullinen palautus! Deadline 6, sunnuntai 10.1
+### Deadline 6, 26. helmikuuta klo 23:59
 * [Deadlinen 6 vaatimukset](Deadline-6-lopullinen-palautus.md)
 
 ### Demot
