@@ -14,7 +14,8 @@
 * Tuntikirjanpito
  * Käytettyjen tuntien määrä ei vaikuta
  * Tuntikirjanpitoa tulee jatkaa jokaisessa deadlinessa
-* Checkstyle raportti luotu ja on projektissa
+* PIT-raportti luotu ja on ajantasalla
+* Checkstyle-raportti luotu ja on ajantasalla
 
 ### Testaus (10 pistettä)
 
