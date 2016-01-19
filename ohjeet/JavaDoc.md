@@ -5,8 +5,8 @@ Osa ohjelmiston dokumentointia on lähdekoodin *API-kuvaus*.  Javassa lähdekood
 Seuraava metodi on kommentoitu vapaamuotoisesti.  Kommentista käy ilmi mitä metodi tekee, mutta muotoiltua dokumentointisivua siitä ei saa tehtyä automaattisesti.
 ``` java
 /* 
- * kertoo kuinka todennäköistä onnistuminen on käyttäjän syötteellä.
- * huom! käyttää yläluokan metodia ja palauttaa arvon vähennettynä kalibroinnilla
+ * Kertoo kuinka todennäköistä onnistuminen on käyttäjän syötteellä.
+ * HUOM: käyttää yläluokan metodia ja palauttaa arvon vähennettynä kalibroinnilla
  */
 public int onnistumistodennakoisyys(int syote) {
     int tn = super.laskeTn(syote) - this.kalibrointi;
@@ -18,7 +18,7 @@ JavaDoc-dokumentoinnilla sama kuvaus olisi seuraavaa:
 ``` java
 /**
  * Metodi kertoo mikä on onnistumistodennäköisyys syöteluvulla
- * ottaen huomioon olion konstruktorissa asetetun kalibrointiarvon
+ * ottaen huomioon olion konstruktorissa asetetun kalibrointiarvon.
  *
  * @param   syote   Käyttäjän antama syöte
  * 
@@ -35,7 +35,7 @@ JavaDocin @param jne. avainsanoja ei onneksi tarvitse opetella ulkoa, koska NetB
 Myös luokkia voi ja kannattaa dokumentoida. Se tapahtuu samalla tavoin kuin metodienkin dokumentointi.
 ``` java
 /**
- * Luokka tarjoaa useita todennäköisyyslaskentaan tarvittavia metodeita
+ * Luokka tarjoaa useita todennäköisyyslaskentaan tarvittavia metodeita.
  */
 public class Todennakoisyyslaskin {
     /* ... */
@@ -46,6 +46,8 @@ JavaDocista saa luotua HTML-version valitsemalla NetBeansissa *Run -> Generate J
 
 Mikäli painike ei ole käytössä, voi saman hoitaa komentoriviltä menemällä projektin juureen ja komentamalla `javadoc -d target/javadoc -sourcepath src/main/java/projekti`. Muista korvata sourcepath polulla oman projektisi java-tiedostoihin! 
 
+**HUOM:** JavaDoc päättyy aina pisteeseen! Lopeta jokainen lause, jonka kirjoitat, pisteeseen. NetBeans antaa tästä vinkin lihavoimalla ensimmäisen lauseen JavaDocissa, joka päättyy pisteeseen (ns. tärkein lause).
+
 ### Attribuuttien dokumentointi
 
 Oliomuuttujille ei yleisesti ottaen tarvitse kirjoittaa JavaDoc-kommentteja, sillä ne ovat usein yksityisiä ja täten eivät kuulu luokan JavaDocilla kuvattavaan APIin. Jos sinulla on koodissasi julkisia (public) muuttujia, ne suositellaankin ensisijaisesti muutettavaksi yksityisiksi (private), jolloin JavaDoc-kommentteja voidaan kirjoittaa niiden setteri- ja getterimetodeille.
@@ -53,7 +55,7 @@ Oliomuuttujille ei yleisesti ottaen tarvitse kirjoittaa JavaDoc-kommentteja, sil
 Jos sinulla kaikesta huolimatta on julkisia muuttujia, JavaDoc-syntaksin mukaan niiden dokumentointi tehdään kuten metodienkin: 
 ``` java
 /**
- * Kalibrointiarvo todennäköisyyden laskemiseen
+ * Kalibrointiarvo todennäköisyyden laskemiseen.
  */
 public int kalibrointi = 20;
 ```
@@ -64,7 +66,7 @@ Laajennetaan vielä alussa esiteltyä esimerkkiä.  Metodille annetaan toinen pa
 ``` java
 /**
  * Metodi kertoo mikä on onnistumistodennäköisyys syöteluvulla
- * ottaen huomioon olion konstruktorissa asetetun kalibrointiarvon
+ * ottaen huomioon olion konstruktorissa asetetun kalibrointiarvon.
  *
  * @param   syote   Käyttäjän antama syöte
  * @param   kayttajanKorjaus    Käyttäjän antama korjausarvo
