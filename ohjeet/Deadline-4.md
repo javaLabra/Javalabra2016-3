@@ -22,5 +22,13 @@
 * JavaDocia ei tarvitse kirjoittaa testeille tai get/set -metodeille, jotka eivät tee mitään ylimääräistä
 * JavaDocista ei vielä tässä vaiheessa tarvitse luoda HTML-versiota
 
+### Generoi Checkstyle-raportti
+* Luo Checkstyle raportti [ohjeiden mukaan](Checkstyle.md)
+* Lisää generoitu raportti dokumentaatiokansioon
+
+### Generoi PIT-raportti uudestaan
+* Generoi uudestaan PIT-raportti
+* Lisää uusi generoitu raportti dokumentaatioon
+
 ### Muu dokumentointi
 * Päivitä luokkakaavio ja aihemäärittely, jos tarpeen
