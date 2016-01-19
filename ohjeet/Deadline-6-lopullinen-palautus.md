@@ -42,7 +42,8 @@
                     <configuration>
                         <transformers>
                             <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                                <mainClass>PÄÄLUOKAN_SIJAINTI</mainClass><!-- Esimerkiksi muotoa "fi.omanimi.superprojekti" -->
+                                <mainClass>PÄÄLUOKAN_SIJAINTI</mainClass>
+                                <!-- mainClass on muotoa "fi.omanimi.superprojekti.Main" -->
                             </transformer>
                         </transformers>
                     </configuration>
