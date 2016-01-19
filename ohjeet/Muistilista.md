@@ -28,7 +28,7 @@ Käytä kaikessa dokumentoinnissa omaa harkintakykyäsi pituuden ja laajuuden ka
 
 **Javadoc**
 * Muista erityisesti seuraavat:
-  * Luokat kuvattu
+  * Kaikki luokat kuvattu
   * Attribuutit kuvattu (jos julkisia)
   * Julkiset metodit ja metodien parametrit/palautusarvot kuvattu
 * Testejä **ei** tarvitse kuvata
@@ -68,6 +68,10 @@ Käytä kaikessa dokumentoinnissa omaa harkintakykyäsi pituuden ja laajuuden ka
 * Merkitse aina vähintään päivä, käyttämäsi aika ja ajankäytön kohde
 * .md
 
+**Raportit**
+* PIT-Raportti luotu ja se on ajantasalla
+* Checkstyle-raportti luotu ja se on ajantasalla
+
 **Testausdokumentaatio**
 * (VAPAAEHTOINEN)
 * Vapaamuotoinen selitys siitä, miten ohjelmaansa on testannut automaattisella testauksella ja käsin
@@ -97,7 +101,3 @@ Github-repositoriosi **Releases** välilehdellä näkyy vähintään yksi julkai
 Tai
 
 * pakattu (zip tai rar) kansio, jossa jar-tiedosto ja ohjelmasi tarvitsemat teksti-/kuva-/musiikkitiedostot
-
-### Lopputulos:
-
-![viiskauttaviis](http://www.cs.helsinki.fi/u/laka/kuvat/viiskauttaviis.png)!
