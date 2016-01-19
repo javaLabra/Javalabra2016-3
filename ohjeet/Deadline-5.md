@@ -4,7 +4,7 @@
 * Ohjelmoinnin tulee edistyä viikottain
 
 ### Noudata Clean code -periaatteita
-* Yritä noudattaa koodin laatuvaatimuksia jo mahdollisimman hyvin
+* Yritä noudattaa koodin [laatuvaatimuksia](Koodin-laatuvaatimukset.md) jo mahdollisimman hyvin
 
 ### JUnit-yksikkötestit
 * Tee uusi pit-raportti ja poista vanha.
