@@ -22,7 +22,7 @@ Jokaisen palautuksen yhteydessä ohjelma tulee voida ajaa ilman virheilmoituksia
 ### Deadline 3, 5. helmikuuta klo 23:59
 * [Deadlinen 3 vaatimukset](Deadline-3.md)
 
-### Ensimmäinen katselmointi 1, 5. helmikuuta klo 23:59
+### Ensimmäinen katselmointi, 5. helmikuuta klo 23:59
 * Deadline [koodikatselmoinnille](Koodikatselmointi.md)
 
 ### Deadline 4, 12. helmikuuta klo 23:59
