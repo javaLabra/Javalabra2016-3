@@ -9,7 +9,7 @@
 ### Clean Code
 
 * Koodin tulisi alusta lähtien olla siistiä ja laajennettavaa
-* [Koodin laatuvaatimukset](Koodin-laatuvaatimukset.md)
+* Tutustu kurssin määrittelemiin [koodin laatuvaatimuksiin](Koodin-laatuvaatimukset.md)
 
 ### JUnit-yksikkötestit:
 
@@ -18,9 +18,11 @@
   * Testaa mahdollisimman montaa metodia
   * Testaa mahdollisimman monelta kantilta
   * Huomioi [koodin laatuvaatimuksien](Koodin-laatuvaatimukset.md) alakohta *Testaus*
-* Ainakin 10 testiä valmiina
-* Generoi pit-raportti ja laita se dokumentaatiokansion sisälle pit-kansioon.
-  * [ohjeet](Maven-Cobertura-ja-PIT.md#raportit)
+* **Ainakin 10 testiä valmiina**
+
+### Generoi PIT-raportti
+  * Katso täältä [ohjeet](Maven-Cobertura-ja-PIT.md#raportit) raportin generointiin
+  * Laita generoitu raportti dokumentaatiokansion sisälle pit-kansioon.
   * Kannattaa myös generoida ja katsoa läpi cobertura-raportti, mutta sitä ei tarvitse lisätä dokumentaatioon.
 
 ### Luokkakaavio
