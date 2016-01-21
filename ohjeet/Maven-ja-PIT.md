@@ -21,8 +21,8 @@ Nyt projektisi pom.xml:n pitäisi näyttää jotakuinkin seuraavalta:
     <packaging>jar</packaging>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>1.7</maven.compiler.source>
-        <maven.compiler.target>1.7</maven.compiler.target>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
     
     <!-- Lisättävä osa tähän väliin-->
@@ -46,8 +46,8 @@ Tämän xml:n alkuosa on jokaisella projektille yksilöllinen. Siihen emme koske
         <plugin>
             <artifactId>maven-compiler-plugin</artifactId>
             <configuration>
-                <source>1.7</source>
-                <target>1.7</target>
+                <source>1.8</source>
+                <target>1.8</target>
             </configuration>
             <version>3.3</version>
         </plugin>
@@ -73,8 +73,8 @@ Lisäyksen jälkeen pom.xml pitäisi näyttää jotakuinkin tältä:
     <packaging>jar</packaging>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>1.7</maven.compiler.source>
-        <maven.compiler.target>1.7</maven.compiler.target>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
 
     <dependencies>
@@ -91,8 +91,8 @@ Lisäyksen jälkeen pom.xml pitäisi näyttää jotakuinkin tältä:
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
-                    <source>1.7</source>
-                    <target>1.7</target>
+                    <source>1.8</source>
+                    <target>1.8</target>
                 </configuration>
                 <version>3.3</version>
             </plugin>
