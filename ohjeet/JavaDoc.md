@@ -103,8 +103,8 @@ Tämän jälkeen build-osan pitäisi näyttää suunnilleen tältä (paitsi jos 
         <plugin>
             <artifactId>maven-compiler-plugin</artifactId>
             <configuration>
-                <source>1.7</source>
-                <target>1.7</target>
+                <source>1.8</source>
+                <target>1.8</target>
             </configuration>
             <version>3.3</version>
         </plugin>
