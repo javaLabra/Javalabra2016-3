@@ -24,7 +24,7 @@
 
 
 ### Generoi PIT-raportti
-  * Katso täältä [ohjeet](Maven-Cobertura-ja-PIT.md#raportit) raportin generointiin
+  * Katso täältä [ohjeet](Maven-ja-PIT.md#raportit) raportin generointiin
   * Laita generoitu raportti dokumentaatiokansion sisälle pit-kansioon.
   * Kannattaa myös generoida ja katsoa läpi cobertura-raportti, mutta sitä ei tarvitse lisätä dokumentaatioon.
 
