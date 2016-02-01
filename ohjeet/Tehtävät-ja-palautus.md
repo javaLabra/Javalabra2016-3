@@ -39,7 +39,7 @@ Jokaisen palautuksen yhteydessä ohjelma tulee voida ajaa ilman virheilmoituksia
 
 ### Demot
 
-* **Demotilaisuuteen on pakko osallistua jos haluaa kurssin läpi.**
+* **Demotilaisuus on kaikille pakollinen**
 * Omaa työtä esitetään 3-7 min.
 * Ohjelman ei tarvitse olla demottaessa valmis tai bugiton
 * Vastataan myös ohjaajien tai muiden ryhmäläisten esittämiin kysymyksiin.
