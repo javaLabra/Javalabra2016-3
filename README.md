@@ -41,7 +41,7 @@ Pajat pidetään [Exactumissa](http://www.helsinki.fi/teknos/opetustilat/kumpula
 * ~~Paja Maanantaina 25. tammikuuta 14-16 BK107 (serdion)~~
 * ~~Paja Keskiviikko 27. tammikuuta 12-14 BK107 (Ooppa)~~
 * ~~**Deadline 2** 29. tammikuuta klo 23:59~~
-* Paja Maanantaina 1. helmikuuta 14-16 BK107 (wakr)~~ HUOM. Siirretty luokkaan B221 (yläpaja)
+* ~~Paja Maanantaina 1. helmikuuta 14-16 BK107 (wakr)~~ HUOM. Siirretty luokkaan B221 (yläpaja)
 * Paja Keskiviikko 3. helmikuuta 12-14 BK107 (serdion)
 * **Deadline 3** 5. helmikuuta klo 23:59 + Ensimmäinen [katselmointi](ohjeet/Koodikatselmointi.md)
 * Paja Maanantaina 8. helmikuuta 14-16 BK107 (Ooppa)
