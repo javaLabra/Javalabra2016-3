@@ -16,7 +16,7 @@ Lisää **pom.xml** tiedostoon
     <plugin>
       <groupId>org.apache.maven.plugins</groupId>
       <artifactId>maven-checkstyle-plugin</artifactId>
-      <version>2.13</version>
+      <version>2.17</version>
       <configuration>
         <configLocation>checkstyle.xml</configLocation>
       </configuration>
@@ -24,7 +24,7 @@ Lisää **pom.xml** tiedostoon
     <plugin>
       <groupId>org.apache.maven.plugins</groupId>
       <artifactId>maven-jxr-plugin</artifactId>
-      <version>2.4</version>
+      <version>2.5</version>
     </plugin>
   </plugins>
 </build>
