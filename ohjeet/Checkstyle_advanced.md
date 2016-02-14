@@ -80,7 +80,7 @@ Seuraavassa siis esimerkikki checkstyle.xml-tiedostosta:
 ```
 
 Nyt puuttuu enää itse mysuppressions.xml-tiedoston luonti. Luo siis samaan kansioon missä checkstyle.xml-tiedostosi sijaitsee tiedosto
-```mysuppressions.xml````ja anna sen sisällöksi seuraava:
+`mysuppressions.xml` ja anna sen sisällöksi seuraava:
 
 ```xml
 <?xml version="1.0"?>
