@@ -2,6 +2,8 @@
 
 ### Clean-code
 * Ohjelmasi tulisi noudattaa [koodin laatuvaatimuksia](Koodin-laatuvaatimukset.md) mahdollisimman hyvin
+* Checkstyle raportti toimii hyvänä suunnan näyttäjänä
+* Kiinnostuneiden kannattaa tutustua [SonarQubeen](http://www.sonarqube.org/)
 
 ### JavaDoc
 * Kaikki luokat, attribuutit ja julkiset metodit on dokumentoitu
@@ -10,10 +12,10 @@
   * @Override -metodeille
   * Yksityisille (private) metodeille
   * Gettereille ja Settereille, jotka eivät tee mitään ylimääräistä
-  * Aivan kaikille käyttöliittymäluokkien metodeille
+  * Käyttöliittymäluokkien metodeille (esim Netbeanssin generoimat JFramet yms.)
 
 ### Kirjoita rakennekuvaus
-* Kirjoita lyhyt, esimerkiksi muutaman tekstikappaleen kuvaus ohjelmasi rakenteesta
+* Kirjoita lyhyt, muutaman tekstikappaleen kuvaus ohjelmasi rakenteesta
 * Toisin sanoen: Avaa luokkakaaviotasi sanallisesti
 * Tallenna kuvaus omaan tiedostoonsa tai aihemäärittelyn jatkoksi
 
@@ -25,7 +27,7 @@
 * Shade-pluginin pitäisi paketoida mukaan ohjelmasi tarvitsemat riippuvuudet, jos sellaisia on.
 * Lisää pom.xml-tiedostoosi uusi plugin:
 
-```
+```xml
 <build>
     <plugins> 
         <!-- ... -->
@@ -54,7 +56,7 @@
 </build>
 ```
 
-* Korvaa javalabra.Main omalla pääluokallasi (siis haluamallasi `main`-metodin toteuttavalla luokalla).
+* Korvaa PÄÄLUOKAN_SIJAINTI omalla pääluokallasi (siis haluamallasi `main`-metodin toteuttavalla luokalla, esimerkiksi `fi.omanimi.superprojekti.Main`).
 * Valitse Netbeansista "Clean & Build". Komentoriviltä paketin saa luotua komennolla `mvn package`. Jar-tiedosto luodaan projektikansiosi `target`-kansion sisään.
 * Kokeile .jar -tiedoston toimivuus. Komentoriviltä jar-tiedosto voidaan ajaa komennolla `java -jar paketti.jar`.
    * Jos ohjelma ei toimi, tarkista erityisesti ohjelmasi käyttämät tiedostopolut - ne ovat suhteellisia .jar-tiedoston sijaintiin
