@@ -30,6 +30,10 @@
   * Sekvenssikaavio alkaa tunnusten syöttämisellä, kirjautuminen hylätään, virheilmoitus, tunnukset syötetään uudestaan, kirjautuminen onnistuu
 * **Lisää sekvenssikaaviot kuvina [seuraavien ohjeiden](https://daringfireball.net/projects/markdown/syntax#img) mukaisesti dokumentaatiosi aiheenKuvausJaRakenne.md tiedostoon.**
 
+### Muokkaa Checkstyle-määrityksiä
+* Seuraa [näitä](Checkstyle_advanced.md) ohjeita
+* Korjaa **kaikki** esiintyvät checkstyle-virheet
+
 ### Generoi Checkstyle-raportti uudestaan
 * Generoi uusi Checkstyle raportti
 * Lisää generoitu raportti dokumentaatiokansioon
