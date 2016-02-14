@@ -12,7 +12,7 @@ Git on laajalti käytetty versionhallinnan työkalu, jota tarvitaan muunmuassa h
 
 ### Aloittaminen
 
-**ÄLÄ** käytä Netbeansin tarjoamaa Git-lisäosaa **ÄLÄKÄ** graafisia ohjelmia. Tähän asti kaikki kurssilla päivän koodaustyönsä menettäneiden ongelmat ovat johtuneet näistä. Käytä aina Linuxissa terminaalia tai Windowsissa Git Bashia, ja tee Commitit sekä Pushit käsin.
+**HUOM: käytä Netbeansin tarjoamaa Git-lisäosaa tai muita graafisia ohjelmia omalla vastuullasi.** Tähän asti kaikki kurssilla päivän koodaustyönsä menettäneiden ongelmat ovat johtuneet näistä. Käytä aina Linuxissa terminaalia tai Windowsissa Git Bashia, ja tee Commitit sekä Pushit käsin.
 
 1. Jos et ole yliopiston koneella ja koneessasi ei ole valmiiksi Gitiä, voit ladata sen täältä: http://help.github.com/win-set-up-git/. Ohje on Windowsille, mutta sen alussa on linkit myös muita käyttöjärjestelmiä varten.
 2. Mene osoitteeseen [http://www.github.com/plans](http://www.github.com/plans)
@@ -104,7 +104,7 @@ Git ja Netbeans ovat hyviä kavereita. Luo ensin Netbeans-projektisi [näiden oh
 
 Anna commit-komento ja push-komento. Nyt harjoitustyösi löytyy Githubistasi!
 
-Nyt voit aloittaa harjoitustyösi tekemisen. 
+**Nyt voit aloittaa harjoitustyösi tekemisen, mutta muista poistaa ylimääräinen harjoitteluun käyttämäsi testihakemisto!**
 
 ### Nyrkkisäännöt
 
@@ -119,7 +119,7 @@ Nyt voit aloittaa harjoitustyösi tekemisen.
 * Tarkista selaimesta, että KAIKKI muutokset menivät repositorioosi: Muuten ohjaajat eivät niitä näe
 * Repositorio on myös varmuuskopio työstäsi - jos tietokoneesi hajoaa tai laitoksen palvelimet reistailevat, on kaikki vaivalla tekemäsi työ tallessa Githubissa!
 * Tiedoston poistaminen repositoriosta tehdään `git rm tiedostonnimi` -komennon avulla. HUOM ole huolellinen tämän käytössä, sillä komento poistaa tiedoston myös paikallisesta repositoriosta (siis omalta koneeltasi)
-* MUISTA: Github-repositoriosi on julkinen. Sen näkee koko maailma. ÄLÄ pistä sinne esimerkiksi opiskelijanumeroasi.
+* **MUISTA:** Github-repositoriosi on julkinen. Sen näkee koko maailma. ÄLÄ pistä sinne esimerkiksi opiskelijanumeroasi.
 
 Nyt voit jatkaa harjoitustyötäsi miltä tahansa tietokoneelta aina siitä mihin lopetit edellisellä kerralla.
 
