@@ -55,7 +55,7 @@ Pajat pidetään [Exactumissa](http://www.helsinki.fi/teknos/opetustilat/kumpula
 * ~~Paja Maanantaina 15. helmikuuta 14-16 BK107 (wakr)~~
 * ~~Paja Keskiviikko 17. helmikuuta 12-14 BK107 (Ooppa)~~
 * ~~**Deadline 5** 19. helmikuuta klo 23:59 + Toinen [katselmointi](ohjeet/Koodikatselmointi.md)~~
-* Paja Maanantaina 22. helmikuuta 14-16 BK107 (wakr)
+* ~~Paja Maanantaina 22. helmikuuta 14-16 BK107 (wakr)~~
 * **[Demotilaisuus](ohjeet/Demotilaisuus.md)** Torstaina 25. helmikuuta 12-14 CK111
 * **[Demotilaisuus](ohjeet/Demotilaisuus.md)** Perjantaina 26. helmikuuta 14-16 CK111
 * **Deadline 6** 26. helmikuuta klo 23:59
