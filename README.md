@@ -27,7 +27,7 @@ Sähköpostit: etunimi.sukunimi@cs.helsinki.fi
 
 ## Uutisia
 
-* Tervetuloa kurssille, vilaise [Yleiset](ohjeet/Yleistä.md) ohjeet ja tule aloitusluennolle tiistaina.
+* Kurssi lähenee loppuaan, kannattaa kerrata [Arvosteluperusteet](ohjeet/Arvosteluperusteet.md.md).
 * **Demotilaisuudet jaettu sukunimen kahden ensimmäisen kirjaimen perusteella**
   * Aa-La torstain demotilaisuus, 12-14 CK111
   * Le-Öö perjantain demotilaisuus, 14-16 CK111
