@@ -27,7 +27,7 @@ Sähköpostit: etunimi.sukunimi@cs.helsinki.fi
 
 ## Uutisia
 
-* Kurssi lähenee loppuaan, kannattaa kerrata [Arvosteluperusteet](ohjeet/Arvosteluperusteet.md.md).
+* Kurssi lähenee loppuaan, kannattaa kerrata [arvosteluperusteet](ohjeet/Arvosteluperusteet.md) ja katsoa läpi [palautuksen muistilista](ohjeet/Muistilista.md)
 * **Demotilaisuudet jaettu sukunimen kahden ensimmäisen kirjaimen perusteella**
   * Aa-La torstain demotilaisuus, 12-14 CK111
   * Le-Öö perjantain demotilaisuus, 14-16 CK111
