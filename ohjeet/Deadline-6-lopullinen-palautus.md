@@ -90,4 +90,5 @@
 * Puske kaikki vaadittava repositorioon ennen deadlinea, viimeisin ennen deadlinea tehty commit arvostellaan
 * Tarkista selaimesta, että kaikki on varmasti Githubissa
 * Tarkista, että ohjelma toimii varmasti laitoksen koneilla
-* **Muistilistana toimii [arvosteluperusteet](Arvosteluperusteet.md)**
+* **Tarkista, että kaikki on kunnossa käyttäen [muistilistaa](Muistilista.md)**
+* **Tutustu vielä tarkasti [arvosteluperusteisiin](Arvosteluperusteet.md)**
