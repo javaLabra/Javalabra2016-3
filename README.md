@@ -28,9 +28,7 @@ Sähköpostit: etunimi.sukunimi@cs.helsinki.fi
 ## Uutisia
 
 * Kurssi lähenee loppuaan, kannattaa kerrata [arvosteluperusteet](ohjeet/Arvosteluperusteet.md) ja katsoa läpi [palautuksen muistilista](ohjeet/Muistilista.md)
-* **Demotilaisuudet jaettu sukunimen kahden ensimmäisen kirjaimen perusteella**
-  * Aa-La torstain demotilaisuus, 12-14 CK111
-  * Le-Öö perjantain demotilaisuus, 14-16 CK111
+* **Loppupalautus perjantaina 4. maaliskuuta klo 23:59!**
 
 # Aikataulu
 
@@ -55,6 +53,6 @@ Pajat pidetään [Exactumissa](http://www.helsinki.fi/teknos/opetustilat/kumpula
 * ~~**Deadline 5** 19. helmikuuta klo 23:59 + Toinen [katselmointi](ohjeet/Koodikatselmointi.md)~~
 * ~~Paja Maanantaina 22. helmikuuta 14-16 BK107 (wakr)~~
 * ~~**[Demotilaisuus](ohjeet/Demotilaisuus.md)** Torstaina 25. helmikuuta 12-14 CK111~~
-* **[Demotilaisuus](ohjeet/Demotilaisuus.md)** Perjantaina 26. helmikuuta 14-16 CK111
-* **Deadline 6** 26. helmikuuta klo 23:59
+* ~~**[Demotilaisuus](ohjeet/Demotilaisuus.md)** Perjantaina 26. helmikuuta 14-16 CK111~~
+* ~~**Deadline 6** 26. helmikuuta klo 23:59~~
 * **Loppupalautus 4. maaliskuuta klo 23:59**
