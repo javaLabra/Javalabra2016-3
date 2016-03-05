@@ -27,8 +27,7 @@ Sähköpostit: etunimi.sukunimi@cs.helsinki.fi
 
 ## Uutisia
 
-* Kurssi lähenee loppuaan, kannattaa kerrata [arvosteluperusteet](ohjeet/Arvosteluperusteet.md) ja katsoa läpi [palautuksen muistilista](ohjeet/Muistilista.md)
-* **Loppupalautus perjantaina 4. maaliskuuta klo 23:59!**
+* **Kiitos kurssista!**
 
 # Aikataulu
 
@@ -55,4 +54,4 @@ Pajat pidetään [Exactumissa](http://www.helsinki.fi/teknos/opetustilat/kumpula
 * ~~**[Demotilaisuus](ohjeet/Demotilaisuus.md)** Torstaina 25. helmikuuta 12-14 CK111~~
 * ~~**[Demotilaisuus](ohjeet/Demotilaisuus.md)** Perjantaina 26. helmikuuta 14-16 CK111~~
 * ~~**Deadline 6** 26. helmikuuta klo 23:59~~
-* **Loppupalautus 4. maaliskuuta klo 23:59**
+* ~~**Loppupalautus 4. maaliskuuta klo 23:59**~~
